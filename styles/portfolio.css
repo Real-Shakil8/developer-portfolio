@@ -153,6 +153,9 @@ main {
 /* what i do */
 .what-i-do {
     text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .skills-container {
