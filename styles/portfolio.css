@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -24,6 +24,10 @@ nav {
     font-style: normal;
     border-radius: 5px;
     border-color: #FD6E0A;
+}
+
+section{
+    margin-top: 130px;
 }
 
 /* header section */
@@ -82,8 +86,6 @@ ul li {
 /* main */
 main {
     max-width: 1140px;
-    /* display: flex;
-    align-items: center; */
     margin: 0 auto;
 }
 
@@ -104,6 +106,7 @@ main {
     line-height: 48px;
     text-align: center;
     color: #181818;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -112,6 +115,7 @@ main {
     line-height: 30px;
     text-align: center;
     color: #757575;
+    margin-bottom: 30px;
 
 }
 
@@ -145,26 +149,88 @@ main {
     color: #474747;
     margin-bottom: 30px;
 }
+
 /* what i do */
-.what-i-do{
-    margin-top: 130px;
+.what-i-do {
     text-align: center;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
 
 }
-.skill-title{
-    font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 27px;
-color: #181818;
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
-.skill-description{
+
+.skill-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+
+}
+
+/* resume */
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+color: #474747;
+}
+.resume-item{}
+
+.resume .title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume .describtion{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
+margin-bottom: 20px;
 }
