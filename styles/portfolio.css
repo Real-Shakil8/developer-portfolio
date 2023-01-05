@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.nav-title {
+    font-size: 45px;
+}
+
+nav {
+    margin: 50px 200px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+}
+
+/* header section */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.nav-title {}
+
+/* banner style */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    /* display: flex;
+    align-items: center; */
+    margin: 0 auto;
+}
+
+/* about section */
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+
+}
+
+.about-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.about-footer .item {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.about-footer .item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.about-footer .item h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+    margin-bottom: 30px;
+}
+/* what i do */
+.what-i-do{
+    margin-top: 130px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+
+}
+.skill-title{
+    
+}
