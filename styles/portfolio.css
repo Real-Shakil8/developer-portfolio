@@ -16,7 +16,7 @@ nav {
     margin: 50px 200px;
 }
 
-.btn-primary {
+.btn-primary{
     background-color: #FD6E0A;
     padding: 15px 30px;
     color: #FFFFFF;
@@ -233,4 +233,9 @@ font-size: 16px;
 line-height: 28px;
 color: #757575;
 margin-bottom: 20px;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
